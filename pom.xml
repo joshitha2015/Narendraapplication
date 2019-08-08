@@ -27,6 +27,18 @@
 	<build>
 		<finalName>cangkitsolutions</finalName>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Vikram-PC-releases</name>
+        <url>http://192.168.229.1:8081/artifactory/maven_rep</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Vikram-PC-snapshots</name>
+        <url>http://192.168.229.1:8081/artifactory/maven_rep</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
 
