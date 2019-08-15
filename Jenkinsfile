@@ -11,5 +11,10 @@ pipeline {
         bat 'mvn deploy'
       }
     }
+    stage('sonarcube') {
+      steps {
+        echo 'sonarcube'
+      }
+    }
   }
 }
