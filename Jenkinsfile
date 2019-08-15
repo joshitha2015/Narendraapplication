@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        bat 'https://github.com/joshitha2015/Narendraapplication.git'
+        bat(script: 'https://github.com/joshitha2015/Narendraapplication.git', label: 'dev', returnStatus: true, returnStdout: true)
       }
     }
   }
