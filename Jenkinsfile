@@ -16,5 +16,10 @@ pipeline {
         echo 'sonarcube'
       }
     }
+    stage('test') {
+      steps {
+        echo 'test'
+      }
+    }
   }
 }
